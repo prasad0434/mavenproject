@@ -1,8 +1,8 @@
 node{
  stage("SCM Checkout"){
    git "https://github.com/prasad0434/mavenproject"
-   }
-    stage ("compile-package){
+  }
+   stage ("compile-package){
      bat "mvn package"
-     }
-   }
+    }
+  }
